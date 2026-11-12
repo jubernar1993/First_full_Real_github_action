@@ -1,4 +1,4 @@
-name: test_workflow
+name: test_workflow_2
 on: push 
 jobs: 
   test:
@@ -14,3 +14,4 @@ jobs:
         run: npm ci 
       - name: Run test
         run: npm test
+
